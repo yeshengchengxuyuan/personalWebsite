@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: uu的成长空间
+title: Hexo
 subtitle: ''
-description: '好记性不如烂笔头'
-  keywords:前端
-  author:周UU
-language: zh-CN
+description: ''
+keywords:
+author: John Doe
+language: en
 timezone: ''
 
 # URL
