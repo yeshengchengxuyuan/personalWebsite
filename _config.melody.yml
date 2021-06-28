@@ -2,25 +2,24 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00C4B6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00C4B6"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   tag_start_color: "#A4D8FA"
-#   tag_end_color: "#1B9EF3"
-#   header_text_color: "#EEEEEE"
-#   footer_text_color: "#EEEEEE"
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00C4B6"
+  button_hover: "#FF7242"
+  text_selection: "#00C4B6"
+  link_color: "#858585"
+  hr_color: "#A4D8FA"
+  tag_start_color: "#A4D8FA"
+  tag_end_color: "#1B9EF3"
+  header_text_color: "#EEEEEE"
+  footer_text_color: "#EEEEEE"
 
 # Main menu navigation
 menu:
-# Home: /
-# Archives: /archives
-# Tags: /tags
-# Categories: /categories
+  首页: /
+  标签: /tags
+  分类: /categories
 #XXX: /xxx
 
 # Favicon
@@ -43,7 +42,7 @@ pwa:
 
 # Highlight theme
 # ---------------
-highlight_theme: default
+highlight_theme: darker # default/darker/pale night/light
 
 # code_word_wrap: true or false
 
@@ -86,7 +85,7 @@ katex:
 
 # Toggle fireworks (IE >= 10)
 # ---------------
-fireworks: false
+fireworks: true
 
 # Analysis
 # ---------------
@@ -130,7 +129,7 @@ cdn:
 # ---------------
 avatar:
 
-top_img: true # false or url of img
+top_img: ./img/header_img/blog-bg.jpeg # false or url of img
 
 top_img_height: 60 # best range: 60 - 100
 
@@ -255,9 +254,9 @@ disqus:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2021
 
-# footer_custom_text: put custom text directly or put hitokoto to fetch random texts
+footer_custom_text: hitokoto
 
 ICP:
   enable: false
@@ -283,7 +282,7 @@ busuanzi:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
