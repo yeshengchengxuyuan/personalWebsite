@@ -127,9 +127,9 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar:
+avatar: https://ftp.bmp.ovh/imgs/2021/06/62703558bcab8127.jpg
 
-top_img: ./img/header_img/blog-bg.jpeg # false or url of img
+top_img: https://ftp.bmp.ovh/imgs/2021/01/34a21e1fedbe1e2a.jpg # false or url of img
 
 top_img_height: 60 # best range: 60 - 100
 
