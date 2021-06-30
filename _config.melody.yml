@@ -283,10 +283,10 @@ busuanzi:
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   enable: true
-  size: 150
+  size: 100
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
 
 # Sidebar Settings
 # ---------------
